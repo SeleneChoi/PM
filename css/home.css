@@ -1,4 +1,9 @@
 body {
-    background-color: tomato;
-    color: white;
+    background-color: white;
+    color: black;
+}
+
+img {
+    width: 400px;
+    border: solid salmon;
 }
