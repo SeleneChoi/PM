@@ -54,10 +54,12 @@ nav ul li a:hover{
     padding: 40px 0 40px 0;
 }
 .footer {
+    position:fixed;
     height: 330px;
+    width:100%;
     background-color: #f4efe8;
     color: #555;
-    align-items: center;
+    align-items: bottom;
     display: flex;
     justify-content: center;
 /*    flex-wrap: wrap;*/
@@ -75,6 +77,8 @@ nav ul li a:hover{
 }
 .logo2{
     padding-top: 25px;
+    width:100px;
+    height:83px;
 }
 .footer-heading a {
     color: #555;

@@ -9,7 +9,7 @@ body {
 main {
     width: 880px;
     height: 1100px;
-    border: solid red;
+    /* border: solid red; */
     position: absolute;
 }
 
@@ -19,7 +19,7 @@ div {
 
 img {
     width: 400px;
-    border: solid salmon;
+    /* border: solid salmon; */
 }
 
 .copy, .img, .video {
