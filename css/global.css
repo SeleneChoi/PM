@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+body {
+    font: 1.1em/1.5 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fffdfb;
+/*    background-color: #D7E0E8;*/
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+li {
+    list-style-type: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: #f4efe8;
+    border-bottom:  solid 5px #d6d0c7;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav ul li a{
+    display: block;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+nav ul li a:hover{
+    color: #9f6544;
+}
+
+
+/** {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}*/
+.footer-container {
+    padding: 40px 0 40px 0;
+}
+.footer {
+    height: 330px;
+    background-color: #f4efe8;
+    color: #555;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+/*    flex-wrap: wrap;*/
+    margin: 0 auto;
+}
+.footer-heading {
+    display: block;
+    flex-direction: column;
+/*    margin-right: 100px;*/
+    padding: 10px;
+}
+.footer-heading h2{
+    font: .9em/1.5 'Quicksand', sans-serif;
+    margin: 0px;
+}
+.logo2{
+    padding-top: 25px;
+}
+.footer-heading a {
+    color: #555;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+
+}
+.footer-heading a:hover {
+    color: #9f6544;
+    transition: 0.3s eas-out;
+}
+
+.footer-email-form h2 {
+    font: .9em/1.5 'Quicksand', sans-serif;
+    margin-bottom: 35px;
+
+}
+#footer-email{
+    width: 200px;
+    height: 30px;
+    border-radius: 14px 6px 14px 6px;
+    outline: none;
+    border: none;
+}
+#footer-email::placeholder {
+    color: #b1b1b1;
+
+}
+#footer-email-btn {
+    width: 90px;
+    height: 30px;
+    border-radius: 14px 6px 14px 6px;
+    background-color: #cfad99;
+    outline: none;
+    border: none;
+    color: #fff;
+    text-align: center;
+
+}
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: #9f6544;
+    transition: all 0.4s eas-out;
+}
+.footer-info{
+    font-size: .8em;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
