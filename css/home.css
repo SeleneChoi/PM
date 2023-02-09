@@ -1,31 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-body {
+main {
+    width: 90%;
+    height: auto;
+    border: solid red;
+    position: absolute;
+    margin: auto;
+    text-align: center;
     font-family: 'PT Sans', sans-serif;
     background-color: white;
     color: black;
 }
 
-main {
-    width: 880px;
-    height: 1100px;
-    border: solid red;
-    position: absolute;
-}
-
 div {
     padding: 10px;
+    float: center;
 }
-
-.img_main {
-    width: 300px;
+.copy{
+    float: left;
+    width: 500px;
+    padding: 5px;
     border: solid salmon;
 }
-
-.copy, .img_main, .video {
+.img_box {
     float: left;
-    width: 40%;
+    width: 500px;
     padding: 5px;
+    border: solid salmon;
+}
+.img_yoga {
+    width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -33,7 +38,7 @@ h1 {
 }
 
 h4 {
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 button {
