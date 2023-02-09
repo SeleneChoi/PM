@@ -9,7 +9,7 @@ main {
     position: absolute;
     margin: auto;
     text-align: center;
-    font-family: 'PT Sans', sans-serif;
+    /* font-family: 'PT Sans', sans-serif; */
     background-color: white;
     color: black;
 }
@@ -36,6 +36,21 @@ div {
     padding: 5px;
     /* border: solid salmon; */
 }
+
+@media all and (max-width: 1000px) {
+    .copy{
+        width: 100%;
+    }
+    .img_box{
+        width: 100%;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
 .img_yoga {
     width: 100%;
     height: auto;
@@ -52,6 +67,7 @@ h4 {
 }
 
 button {
+    font-family: 'Quicksand', sans-serif;
     background-color: #fff;
     color: black;
     border-radius: 5px;
