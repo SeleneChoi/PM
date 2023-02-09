@@ -3,7 +3,9 @@
 main {
     width: 90%;
     height: auto;
-    border: solid red;
+    display: fixed;
+    float: center;
+    /* border: solid red; */
     position: absolute;
     margin: auto;
     text-align: center;
@@ -14,25 +16,33 @@ main {
 
 div {
     padding: 10px;
-    float: center;
+    margin: 15px 0px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+    /* float: center; */
 }
 .copy{
-    float: left;
+    display: flex;
+	flex-direction: column;
     width: 500px;
-    padding: 5px;
-    border: solid salmon;
+    padding: 50px;
+    /* border: solid salmon; */
 }
 .img_box {
     float: left;
     width: 500px;
     padding: 5px;
-    border: solid salmon;
+    /* border: solid salmon; */
 }
 .img_yoga {
     width: 100%;
     height: auto;
 }
-
+.img_yoga:hover {
+    opacity: 0.8;
+}
 h1 {
     font-size: 2em;
 }
@@ -46,11 +56,13 @@ button {
     color: black;
     border-radius: 5px;
     /* border-style: none; */
-    padding: 5px 7px;
+    margin: 15px;
+    padding: 10px 10px;
 }
 
 button:hover {
-    color:blue;
+    color: #9f6544;
+    background: ivory;
 }
 
 button:visited {
