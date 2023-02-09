@@ -1,3 +1,7 @@
+/* The footer section is fixed at the bottom 
+We should change it as a part of the page, not always fixed at the bottom? */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 body {
@@ -54,7 +58,7 @@ nav ul li a:hover{
 .footer-container {
     padding: 40px 0 40px 0;
 }
-.footer, .push {
+.footer {
     position: fixed;
     left:0;
     bottom:0;
@@ -64,8 +68,9 @@ nav ul li a:hover{
     color: #555;
     align-items: center;
     display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
     justify-content: center;
-
     margin: 0 auto;
    
 }
