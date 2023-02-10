@@ -54,7 +54,7 @@ nav ul li a:hover{
     padding: 40px 0 40px 0;
 }
 .footer {
-    position:fixed;
+    position: relative; /*fixed ==> relative*/
     height: 330px;
     width:100%;
     background-color: #f4efe8;
@@ -64,6 +64,7 @@ nav ul li a:hover{
     justify-content: center;
 /*    flex-wrap: wrap;*/
     margin: 0 auto;
+
 }
 .footer-heading {
     display: block;
@@ -127,29 +128,3 @@ nav ul li a:hover{
     font-size: .8em;
     float: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
