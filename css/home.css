@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-body {
-    font-family: 'PT Sans', sans-serif;
+main {
+    width: 90%;
+    height: auto;
+    display: fixed;
+    float: center;
+    /* border: solid red; */
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    /* font-family: 'PT Sans', sans-serif; */
     background-color: white;
     color: black;
 }
 
+<<<<<<< HEAD
 main {
     width: 880px;
     height: 1100px;
@@ -13,39 +22,82 @@ main {
     position: absolute;
 }
 
+=======
+>>>>>>> 3efb8512a3458e7a29c5e663ab90b96a6b88a724
 div {
     padding: 10px;
+    margin: 15px 0px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    align-items: center;
+	justify-content: flex-end;
+    /* float: center; */
 }
+<<<<<<< HEAD
 
 img {
     width: 400px;
+=======
+.copy{
+    display: flex;
+	flex-direction: column;
+    width: 500px;
+    padding: 50px;
+>>>>>>> 3efb8512a3458e7a29c5e663ab90b96a6b88a724
+    /* border: solid salmon; */
+}
+.img_box {
+    float: left;
+    width: 500px;
+    padding: 5px;
     /* border: solid salmon; */
 }
 
-.copy, .img, .video {
-    float: left;
-    width: 40%;
-    padding: 5px;
+@media all and (max-width: 1000px) {
+    .copy{
+        width: 100%;
+    }
+    .img_box{
+        width: 100%;
+        padding: 10%;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 }
 
+.img_yoga {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.img_yoga:hover {
+    opacity: 0.8;
+}
 h1 {
     font-size: 2em;
 }
 
 h4 {
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 button {
+    font-family: 'Quicksand', sans-serif;
     background-color: #fff;
     color: black;
     border-radius: 5px;
     /* border-style: none; */
-    padding: 5px 7px;
+    margin: 15px;
+    padding: 10px 10px;
 }
 
 button:hover {
-    color:blue;
+    color: #9f6544;
+    background: ivory;
 }
 
 button:visited {
