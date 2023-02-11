@@ -5,9 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
 
 </head>
 <body>
-
+    <main>
+        <div class="row">
+          <div class="column">
+            <h2>Contact Us</h2>
+            <h4>Want to reach out? We'd love to hear from you!</h4>
+            <div class="contact">
+                <form action="/from/submit" method="POST">
+                    <label for="fname">Full Name</label>
+                    <input type="text"name="name" placeholder="Type your full name">
+        
+                    <label for="mail">E-mail</label>
+                    <input type="text"name="e-mail" placeholder="Type your E-mail">
+        
+                    <label for="lname">Contact Number</label>
+                    <input type="text" name="contact_num" placeholder="Type your contact number">
+        
+                    <label for="message">Message</label>
+                    <textarea name="message" placeholder="Type your message" style="height: 200px"></textarea>
+                    <!-- <input type="submit" value="Send"> -->
+                </form>
+            </div>
+                <div class="sub">
+                 <button class="submit" value="Send">SUBMIT</button>
+                </div>
+          </div>
+          <div class="column">
+            <div class="but">
+                <h3>CONNECT WITH US</h3>
+                <button class="con"> E-MAIL US</button><br>
+                <button class="con"> CHAT WITH US</button>
+            </div>
+            <div class="cont">
+                <h3>CONNECT INFO</h3>
+                <p>Call us: 604-123-4567</p>
+                <p>E-mail: zenstudio@yoga.com</p>
+                <p>Main Office: 123 Anywhere street, BC 4004, CA</p>
+                
+                <h3>HOURS OF OPRATION</h3>
+                <p> 5:00am - 8:00pm</p>
+                <p>Monday - Friday </p>
+                
+                <p> 7:00am - 6:00pm </p>
+                <p>Saturday & Sunday </p>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
