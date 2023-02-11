@@ -14,7 +14,7 @@ main {
 
 /*    width: 880px;
     height: 1100px;*/
-     border: solid red; 
+     /* border: solid red;  */
 }
 
 div {
@@ -38,7 +38,7 @@ div {
     float:left;
     width: 500px;
     padding: 5px;
-     border: solid salmon; 
+     /* border: solid salmon;  */
 }
 .img_box {
     float: left;
