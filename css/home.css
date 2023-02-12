@@ -80,12 +80,15 @@ h4 {
 
 button {
     font-family: 'Quicksand', sans-serif;
-    background-color: #fff;
-    color: black;
+    font-size: 1em;
     border-radius: 5px;
+    background-color: #cfad99;
+    border: 2px #cfad99 solid;
+    color: #fff;
+    text-align: center;
     /* border-style: none; */
     margin: 15px;
-    padding: 10px 10px;
+    padding: 10px 35px;
 }
 
 button:hover {
