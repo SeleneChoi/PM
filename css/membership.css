@@ -1,0 +1,47 @@
+main {
+    /* border: 2px black solid; */
+    width: 90%;
+    padding: 20px;
+    height: auto;
+    float: center;
+    /* border: solid red; */
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif; 
+    /* background-color: white; */
+    color: black;
+}
+
+.img_membership {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.container {
+    border: 2px green solid;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.top {
+    border: 2px red solid;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.bottom {
+    border: 2px blue solid;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
