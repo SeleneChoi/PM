@@ -139,13 +139,20 @@ button:visited {
     color:blueviolet
 }
 
-
 .video{
-    border:solid 2px pink;
-    float:left;
-    width: 200px;
-    margin-top: -250px;
+    width:600px;
+    height:350px;
+    border: solid 20px pink;
+ 
+    margin-top: -275px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
+
+.video-text{
+    border: solid 2px pink;
+}
+
 
 @media(max-width:1250px){}
     .blog-card{
