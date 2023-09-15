@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZEN YOGA HOME</title>
-    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
     <header>
-        <a href="#" class="logo"><img src="img/logo.png"></a>
+        <a href="home.html" class="logo"><img src="img/logo.png"></a>
         <nav>
             <ul>
-                <li><a href="#" class="selected">Home</a></li>
-                <li><a href="#">Membership</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="home.html" class="selected">Home</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -26,10 +28,10 @@
             <div class="copy">
                 <h1>OUR MEMBERSHIP</h1>
                 <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum enim a nihil. Necessitatibus cumque quas nihil fuga asperiores distinctio ipsam culpa sed quibusdam quisquam molestias laboriosam, eaque tempora. Pariatur.</h4>
-                <a href=""><button>MEMBERSHIP</button></a>
+                <a href="membership.html"><button>MEMBERSHIP</button></a>
             </div>
-            <div class="img">
-                <img src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=700&quality=85&dpr=1&s=none" alt="placeholder">
+            <div class="img_box">
+                <img class="img_yoga" src="img/yoga1.jpg" alt="yoga1">
             </div>
         </div>
 
@@ -37,10 +39,10 @@
             <div class="copy">
                 <h1>WHO WE ARE</h1>
                 <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum enim a nihil. Necessitatibus cumque quas nihil fuga asperiores distinctio ipsam culpa sed quibusdam quisquam molestias laboriosam, eaque tempora. Pariatur.</h4>
-                <a href=""><button>ABOUT US</button></a>
+                <a href="about.html"><button>ABOUT US</button></a>
             </div>
-            <div class="video">
-                <img src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=700&quality=85&dpr=1&s=none" alt="placeholder">
+            <div class="img_box">
+                <img class="img_yoga" src="img/yoga2.jpg" alt="yoga2">
             </div>
         </div>
 
@@ -48,34 +50,38 @@
             <div class="copy">
                 <h1>OUR STORY</h1>
                 <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum enim a nihil. Necessitatibus cumque quas nihil fuga asperiores distinctio ipsam culpa sed quibusdam quisquam molestias laboriosam, eaque tempora. Pariatur.</h4>
-                <a href=""><button>OUR BLOG</button></a>
+                <a href="blog.html"><button>OUR BLOG</button></a>
             </div>
-            <div class="img">
-                <img src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=700&quality=85&dpr=1&s=none" alt="placeholder">
+            <div class="img_box">
+                <img class="img_yoga" src="img/yoga3.jpg" alt="yoga3">
             </div>
         </div>
-
     </main>
+
+    <footer>
+
+        <span class="footer-container">
+            <span class="footer">
+                <span class="footer-heading footer-1">
+                    <a href="home.html" class="logo2"><img src="img/logoo.png"></a>
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h2>
+                <span class="footer-email-form">
+                    <h2>Join Our Newsletter</h2>
+                    <input type="email" placeholder="Your Email" id="footer-email">
+                    <input type="SUBSCRIBE" value="Sign Up" id="footer-email-btn">
+                </span>
+                <span class="footer-info">
+                    <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms & Policy</a></li>
+                    </ul>
+                </span>
+            </span>
+        </span>
+
+    </footer>
+
 </body>
-<footer>
-    <div class="footer-container">
-        <div class="footer">
-            <div class="footer-heading footer-1">
-                <a href="#" class="logo2"><img src="img/logoo.png"></a>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h2>
-            <div class="footer-email-form">
-                <h2>Join Our Newsletter</h2>
-                <input type="email" placeholder="Your Email" id="footer-email">
-                <input type="SUBSCRIBE" value="Sign Up" id="footer-email-btn">
-            </div>
-            <div class="footer-info">
-                <ul>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Terms & Policy</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
+
 </html>

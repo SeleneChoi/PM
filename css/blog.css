@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Quicksand', sans-serif;
+} */
+
+html, body{
+    height: 100%;
+    margin:0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+} 
+
+main{
+min-height: 100%;
+margin-bottom: 330px;
+z-index: 999;
+}
+
+.footer,
+.push{
+    height: 330px;
+}
+
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 120px;
+    background-color: #fffdfb;
+    border-bottom: 2px solid #e9d9cf;
+
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#000;
+    font-size: 2.0em;
+    font-weight: 600;
+}
+.blog.heading span{
+    font-size: 5.4rem;
+    color:#805237;
+    font-weight: 600;
+}
+h1 {
+    font-size: 2em;
+} 
+
+.recent{
+    width:100%;
+    border-bottom: 2px solid #cfad99;
+}
+
+
+/* blog cards */
+.blog-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.blog-card{
+    width:100px;
+    background-color: #cfad99;
+    border:1px solid #cfad99;
+    margin:20px;
+}
+.blog-img{
+    width:100%;
+    height:auto;
+
+}
+.blog-img img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position:center;
+}
+.blog-date{
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+}
+.blog-date span{
+    color: ivory;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+.blog-date .post-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #9f6544;
+}
+.blog-date .post-title:hover{
+    color: #9f6544;
+    transition: all ease 0.3s;
+}
+.blog-date p{
+    color:#fffdfb;
+    font-size: 0.9rem;
+    overflow: hidden;
+    margin:20px 0px;
+}
+.blog-date a:hover{
+        color:#fff;
+        transition: all ease;
+}
+
+/* button */
+button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: ivory;
+    color: #9f6544;
+    text-align: center;
+    border-style: none;
+    margin: 15px;
+    padding: 10px 35px;
+}
+
+button:hover {
+    color: #9f6544;
+    background: ivory;
+}
+
+button:visited {
+    color:blueviolet
+}
+
+.video{
+    width:600px;
+    height:350px;
+    border: solid 20px pink;
+ 
+    margin-top: -275px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.video-text{
+    border: solid 2px pink;
+}
+
+
+@media(max-width:1250px){}
+    .blog-card{
+        width: 300px;
+    }
+@media(max-width:1100px){
+        .blog-card{
+            width: 70%;
+        }
+}
+@media(max-width:1100px){
+    .blog-card{
+        margin: 20px 10px;;
+        width: 100%;
+    }
+    #blog{
+        padding: 20px auto;
+    }
+}
